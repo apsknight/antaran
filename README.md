@@ -3,6 +3,9 @@
 # अंतरण (Antaran)
 > A multithreaded file transfer program implemented in C using UNIX Socket API over Transmission Control Protocol.
 
+[![Build Status](https://travis-ci.com/apsknight/antaran.svg?branch=master)](https://travis-ci.com/apsknight/antaran)
+</center>
+
 <table>
 <tr>
 <td>
@@ -13,8 +16,6 @@
 </td>
 </tr>
 </table>
-</center>
-
 ## Usage
 ```
 ./server [PORT]
