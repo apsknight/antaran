@@ -1,7 +1,7 @@
 echo "Building File Transfer Program";
 
 # Compile Server and Client
-gcc -o server -lpthread source/server.c source/utils.c && \
+gcc -o server -pthread source/server.c source/utils.c && \
 gcc -o client source/client.c source/utils.c 
 
 rc=$?; if [[ $rc != 0 ]]; then echo "Compilation Failed\n" && exit $rc; fi
